@@ -7,9 +7,14 @@ Il prend en charge **deux profils** (DINO et TREX) avec leurs propres listes de 
 
 ## ⚠️ AVERTISSEMENT
 
-✅ Cet outil **ne consomme aucun flux IPTV**, il ne fait qu'interroger les serveurs pour vérifier si le compte est valide.  
-❌ Il **n'accède à aucun contenu vidéo** ni ne contourne de protections.  
-🟡 Il **fonctionne uniquement avec des identifiants valides** **associés aux bons serveurs**.
+✅ Cet outil **ne consomme aucun flux IPTV**, il ne fait qu'interroger les serveurs pour vérifier si un compte est actif.  
+❌ Il **n'accède à aucun contenu multimédia**, ne contourne aucune protection et ne stocke aucune donnée.
+
+📌 **Ce projet est fourni exclusivement à des fins pédagogiques, de test de connectivité ou d'intégration technique** dans des environnements contrôlés.  
+Aucun usage malveillant, abusif ou hors cadre légal ne sera toléré ou soutenu.
+
+🛑 **L’auteur ne fournit aucun support, ni garantie, ni responsabilité sur l’usage de cet outil.**  
+Utilisez-le uniquement avec des identifiants et services IPTV que vous possédez légalement.
 
 ---
 
@@ -49,8 +54,6 @@ http://ip.tv:8080
 
 Lancez le script interactif :
 ```bash
-cd iptv-domain-tester       #si cdomain_tester.sh est dans le dossier iptv-domain-tester !
-chmod +x domain_tester.sh
 ./domain_tester.sh
 ```
 
@@ -66,15 +69,21 @@ Les domaines détectés comme **ONLINE** seront enregistrés dans :
 
 ---
 
-## 🧪 Recommandation
+## ✉️ Note légale et éducative
 
-- Testez uniquement **vos propres comptes** ou ceux sous votre responsabilité.
-- N’utilisez pas cet outil à des fins d’abus ou de scan massif de services tiers.
+🧠 Ce projet a été conçu uniquement dans un objectif **éducatif et expérimental**.  
+Il vise à comprendre le fonctionnement de services IPTV au niveau réseau (HTTP), sans interaction avec les flux ou les contenus.
+
+📚 Il peut être utilisé dans un cadre :
+- d'apprentissage personnel
+- de tests réseau ou API
+- de diagnostic d'accès (avec comptes valides)
+
+📦 Aucune distribution ni hébergement de contenu IPTV n'est impliqué.
 
 ---
 
-## ✉️ Contact
-
-Pour toute amélioration ou bug : ouvrez une issue ou modifiez via Git.
+**Utilisation responsable uniquement.**  
+Tout usage hors de ce cadre est **fermement déconseillé** et **aux risques de l’utilisateur**.
 
 ---
