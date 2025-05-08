@@ -3,14 +3,14 @@
 USER_AGENT="IBOPlayer/1.0"
 
 # Identifiants DINO
-LOGIN_DINO="ba91a1816a"
-PASS_DINO="87f9cba1e31c"
+LOGIN_DINO="votre_login_dino"
+PASS_DINO="votre_mdp_dino"
 FILE_DINO="domains_dino.txt"
 OUT_DINO="/tmp/domains_up_dino.txt"
 
 # Identifiants TREX
-LOGIN_TREX="USER_TREX"
-PASS_TREX="PASS_TREX"
+LOGIN_TREX="votre_login_trex"
+PASS_TREX="votre_mdp_trex"
 FILE_TREX="domains_trex.txt"
 OUT_TREX="/tmp/domains_up_trex.txt"
 
